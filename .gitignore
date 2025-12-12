@@ -1,0 +1,72 @@
+# ---------------------------------------
+# Python cache / compiled files
+# ---------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# ---------------------------------------
+# Virtual environments
+# ---------------------------------------
+venv/
+env/
+.venv/
+
+# ---------------------------------------
+# OS-specific files
+# ---------------------------------------
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ---------------------------------------
+# PyCharm / VS Code
+# ---------------------------------------
+.vscode/
+.idea/
+
+# ---------------------------------------
+# Build / Distribution folders
+# ---------------------------------------
+build/
+dist/
+*.egg-info/
+
+# ---------------------------------------
+# Logs and temporary files
+# ---------------------------------------
+*.log
+logs/
+tmp/
+temp/
+
+# ---------------------------------------
+# PyInstaller / packaging
+# ---------------------------------------
+*.spec
+
+# ---------------------------------------
+# Generated files from your project
+# ---------------------------------------
+# Compiled job worker processes or output files
+*.out
+*.bin
+
+# ---------------------------------------
+# Optional: ignore reports if generated
+# ---------------------------------------
+*.pdf
+*.pptx
+reports/
